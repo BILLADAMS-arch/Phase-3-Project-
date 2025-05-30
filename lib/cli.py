@@ -25,7 +25,7 @@ def main():
     save_quiz_attempt(user.id, score)
 
 if __name__ == "__main__":
-    print("📦 Initializing database...")
+    print(" Initializing database...")
     User.create_table()
     QuizAttempt.create_table()
     main()
